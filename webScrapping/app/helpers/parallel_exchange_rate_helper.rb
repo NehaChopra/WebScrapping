@@ -1,0 +1,2 @@
+module ParallelExchangeRateHelper
+end

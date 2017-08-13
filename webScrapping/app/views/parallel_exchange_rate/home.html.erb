@@ -1,0 +1,89 @@
+<div class="entry">
+  <h3 class="h3">Web Scrapping Result</h3>
+  <div class="outer">
+    <table class="table table-responsive">
+      <thead>
+        <tr>
+	        <% @formatted_hash.keys.each do |key| %>
+	            <th><%= key %></th>
+	        <%end%>
+	  </tr>
+      </thead>
+
+      <tbody>
+
+          <tr>
+	          <td>
+	            <%= @rates_array_final[0] %>
+	          </td>
+
+              <td>
+                <%= @rates_array_final[1] %>
+              </td>
+
+              <td>
+                <%= @rates_array_final[2] %>
+              </td>
+
+              <td>
+                <%= @rates_array_final[3] %>
+              </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <%= @rates_array_final[4] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[5] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[6] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[7] %>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <%= @rates_array_final[8] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[9] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[10] %>
+            </td>
+
+            <td>
+              <%= @rates_array_final[11] %>
+            </td>
+          </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div>
+  <h3 class="h3">Web Scrapping JSON Result</h3>
+  <div>
+    <%= @formatted_hash %>
+  </div>
+</div>
+
+
+
+<footer class="footer">
+  <div>
+    <p class="text-muted">NEHA CHOPRA</p>
+  </div>
+</footer>
